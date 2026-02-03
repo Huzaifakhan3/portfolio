@@ -142,12 +142,19 @@ export default function Portfolio() {
               transition={{ delay: 0.8 }}
               className="flex gap-4 pt-4"
             >
-              <Button className="bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white px-8 py-6 text-lg rounded-none font-semibold border-0 shadow-2xl shadow-orange-600/50 group">
+              <Button 
+                onClick={() => window.location.href = 'mailto:your.huzaifaikhaan@gmail.com'}
+                className="bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white px-8 py-6 text-lg rounded-none font-semibold border-0 shadow-2xl shadow-orange-600/50 group cursor-pointer"
+              >
                 <Mail className="mr-2" />
                 Get in Touch
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" className="border-2 border-orange-500/50 text-orange-500 hover:bg-orange-500/10 px-8 py-6 text-lg rounded-none font-semibold">
+              <Button 
+                onClick={() => window.open('https://www.linkedin.com/in/huzaifaikhan', '_blank')}
+                variant="outline" 
+                className="border-2 border-orange-500/50 text-orange-500 hover:bg-orange-500/10 px-8 py-6 text-lg rounded-none font-semibold cursor-pointer"
+              >
                 <Linkedin className="mr-2" />
                 LinkedIn
               </Button>

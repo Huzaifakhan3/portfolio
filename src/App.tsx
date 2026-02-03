@@ -114,7 +114,7 @@ export default function Portfolio() {
               transition={{ delay: 0.4 }}
               className="text-8xl md:text-9xl font-black tracking-tighter"
             >
-              <span className="block">Huzaifas</span>
+              <span className="block">Huzaifa</span>
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-amber-500 to-yellow-500">
                 Khan
               </span>

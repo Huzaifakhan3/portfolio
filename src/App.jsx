@@ -6,7 +6,7 @@ export default function Portfolio() {
     const containerRef = useRef(null);
     const { scrollYProgress } = useScroll();
     const experiences = [{
-            role: "ASAU Computer Lab Assistant",
+            role: "Information Technology Support Specialist",
             company: "Carleton University",
             date: "Sept 2025 – Present",
             bullets: [
@@ -15,13 +15,17 @@ export default function Portfolio() {
                 "Assisted with networking tasks including cable mapping, connectivity troubleshooting, and basic server maintenance."
             ]
         }, {
-            role: "Warehouse Associate",
-            company: "Amazon",
-            date: "Sept 2022 – Apr 2023",
+            role: "Data Analyst",
+            company: "Clear Shine Solutions",
+            date: "Jan 2025 – Aug 2025",
             bullets: [
-                "Operated handheld scanners and warehouse management systems (WMS) to track inventory with strict accuracy and throughput requirements.",
-                "Worked within highly optimized logistics pipelines, following safety protocols and performance metrics in a time-critical environment.",
-                "Collaborated within large, distributed teams to ensure real-time data integrity across inbound and outbound operations."
+                "Cleaned and processed large operational datasets using Python, Pandas, and NumPy, improving data consistency and preparing structured datasets for analysis.",
+                "Performed exploratory data analysis and statistical modeling using Scikit-learn to identify trends in customer engage-ment and advertising campaign performance.",
+                "Developed data visualizations and interactive dashboards in Tableau to track customer retention, campaign ROI, and sales projections, enabling data-driven decision making.",
+                "Built analytical pipelines with Python and Matplotlib to visualize behavioral trends across marketing datasets, improving reporting efficiency by approximately 30%.",
+                "Applied machine learning models using Scikit-learn to analyze returning customer patterns and predict engagement likelihood for future campaigns.",
+                "Automated repetitive reporting workflows using Python scripts, reducing manual data preparation time by approxi-mately 35%.",
+                "Collaborated with cross-functional teams to translate raw data into actionable insights that informed marketing strategy and operational planning."
             ]
         }];
     const projects = [{
